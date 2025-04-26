@@ -1,0 +1,24 @@
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual-envs
+.env/
+.venv/
+venv/
+
+# Editor / OS trash
+.idea/
+.vscode/
+.DS_Store
+
+# Runtime artefacts that MUST stay local
+credentials.json
+processed_links.db
+telegraph_images/
+graph_images/
+tg_*/
+
+# Logs
+*.log
